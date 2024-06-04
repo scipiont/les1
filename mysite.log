@@ -22,3 +22,9 @@ Watching for file changes with StatReloader
 "GET /about/ HTTP/1.1" 200 266
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 2436
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 328
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2436
+"GET /about/ HTTP/1.1" 200 303
+"GET / HTTP/1.1" 200 328
