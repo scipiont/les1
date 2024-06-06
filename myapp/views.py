@@ -20,3 +20,5 @@ def about(request):
     context = {'title': 'Немного обо мне', 
             'content': 'Меня зовут Николай. Я учусь в geekbrains на разработчика Python'}
     return render(request, 'myapp/about.html', context)
+
+#
